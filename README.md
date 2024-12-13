@@ -25,7 +25,7 @@ provider "alicloud" {
 }
 
 module "complete" {
-  source = alibabacloud-automation/east-west-security-traffic/alicloud
+  source = "alibabacloud-automation/east-west-security-traffic/alicloud"
 
   vpcs = [
     {
