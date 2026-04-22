@@ -84,12 +84,13 @@ module "complete" {
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13 |
+| <a name="requirement_alicloud"></a> [alicloud](#requirement\_alicloud) | >= 1.200.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_alicloud"></a> [alicloud](#provider\_alicloud) | n/a |
+| <a name="provider_alicloud"></a> [alicloud](#provider\_alicloud) | >= 1.200.0 |
 
 ## Modules
 
@@ -101,37 +102,37 @@ module "complete" {
 
 | Name | Type |
 |------|------|
-| [alicloud_cen_instance.this](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_instance) | resource |
-| [alicloud_cen_transit_router.this](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router) | resource |
-| [alicloud_cen_transit_router_route_entry.untrust](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router_route_entry) | resource |
-| [alicloud_cen_transit_router_route_table.trust](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router_route_table) | resource |
-| [alicloud_cen_transit_router_route_table.untrust](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router_route_table) | resource |
-| [alicloud_cen_transit_router_route_table_association.trust](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router_route_table_association) | resource |
-| [alicloud_cen_transit_router_route_table_association.untrust](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router_route_table_association) | resource |
-| [alicloud_cen_transit_router_route_table_propagation.trust1](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router_route_table_propagation) | resource |
-| [alicloud_cen_transit_router_vpc_attachment.firewall_vpc](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router_vpc_attachment) | resource |
-| [alicloud_route_entry.firewall_vpc_outbound_route](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/route_entry) | resource |
-| [alicloud_route_entry.vpc_default_route](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/route_entry) | resource |
-| [alicloud_route_table.firewall_vpc_inbound_route](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/route_table) | resource |
-| [alicloud_route_table.firewall_vpc_outbound_route](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/route_table) | resource |
-| [alicloud_route_table_attachment.inbound](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/route_table_attachment) | resource |
-| [alicloud_route_table_attachment.outbound](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/route_table_attachment) | resource |
-| [alicloud_vpc.firewall_vpc](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/vpc) | resource |
-| [alicloud_vswitch.firewall_vswitch](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/vswitch) | resource |
-| [alicloud_vswitch.tr_vswitches](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/vswitch) | resource |
+| [alicloud_cen_instance.this](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_instance) | resource |
+| [alicloud_cen_transit_router.this](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router) | resource |
+| [alicloud_cen_transit_router_route_entry.untrust](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router_route_entry) | resource |
+| [alicloud_cen_transit_router_route_table.trust](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router_route_table) | resource |
+| [alicloud_cen_transit_router_route_table.untrust](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router_route_table) | resource |
+| [alicloud_cen_transit_router_route_table_association.trust](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router_route_table_association) | resource |
+| [alicloud_cen_transit_router_route_table_association.untrust](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router_route_table_association) | resource |
+| [alicloud_cen_transit_router_route_table_propagation.trust1](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router_route_table_propagation) | resource |
+| [alicloud_cen_transit_router_vpc_attachment.firewall_vpc](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router_vpc_attachment) | resource |
+| [alicloud_route_entry.firewall_vpc_outbound_route](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/route_entry) | resource |
+| [alicloud_route_entry.vpc_default_route](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/route_entry) | resource |
+| [alicloud_route_table.firewall_vpc_inbound_route](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/route_table) | resource |
+| [alicloud_route_table.firewall_vpc_outbound_route](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/route_table) | resource |
+| [alicloud_route_table_attachment.inbound](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/route_table_attachment) | resource |
+| [alicloud_route_table_attachment.outbound](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/route_table_attachment) | resource |
+| [alicloud_vpc.firewall_vpc](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/vpc) | resource |
+| [alicloud_vswitch.firewall_vswitch](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/vswitch) | resource |
+| [alicloud_vswitch.tr_vswitches](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/vswitch) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_cen_instance_config"></a> [cen\_instance\_config](#input\_cen\_instance\_config) | The parameters of cen instance. | <pre>object({<br>    name        = optional(string, "east-west-cen")<br>    description = optional(string, "east-west-cen")<br>  })</pre> | `{}` | no |
+| <a name="input_cen_instance_config"></a> [cen\_instance\_config](#input\_cen\_instance\_config) | The parameters of cen instance. | <pre>object({<br/>    name        = optional(string, "east-west-cen")<br/>    description = optional(string, "east-west-cen")<br/>  })</pre> | `{}` | no |
 | <a name="input_cen_instance_id"></a> [cen\_instance\_id](#input\_cen\_instance\_id) | The id of an exsiting cen instance. | `string` | `null` | no |
 | <a name="input_cen_transit_router_id"></a> [cen\_transit\_router\_id](#input\_cen\_transit\_router\_id) | The transit router id of an existing transit router. | `string` | `null` | no |
 | <a name="input_create_cen_instance"></a> [create\_cen\_instance](#input\_create\_cen\_instance) | Whether to create cen instance. If false, you can specify an existing cen instance by setting 'cen\_instance\_id'. Default to 'true' | `bool` | `true` | no |
 | <a name="input_create_cen_transit_router"></a> [create\_cen\_transit\_router](#input\_create\_cen\_transit\_router) | Whether to create transit router. If false, you can specify an existing transit router by setting 'cen\_transit\_router\_id'. Default to 'true' | `bool` | `true` | no |
-| <a name="input_firewall_vpc"></a> [firewall\_vpc](#input\_firewall\_vpc) | The parameters of firewall vpc. | <pre>object({<br>    vpc_name   = optional(string, "firewall-vpc")<br>    cidr_block = string<br>    firewall_vswitch = object({<br>      subnet  = string<br>      zone_id = string<br>    })<br>    tr_vswitches = list(object({<br>      subnet  = string<br>      zone_id = string<br>    }))<br>    inbound_route_table_name  = optional(string, "inbound")<br>    outbound_route_table_name = optional(string, "outbound")<br>  })</pre> | <pre>{<br>  "cidr_block": null,<br>  "firewall_vswitch": {<br>    "subnet": null,<br>    "zone_id": null<br>  },<br>  "tr_vswitches": [<br>    {<br>      "subnet": null,<br>      "zone_id": null<br>    },<br>    {<br>      "subnet": null,<br>      "zone_id": null<br>    }<br>  ]<br>}</pre> | no |
-| <a name="input_tr_config"></a> [tr\_config](#input\_tr\_config) | The parameters of transit router. | <pre>object({<br>    name                            = optional(string, "east-west-tr")<br>    untrust_route_table_name        = optional(string, "untrust")<br>    untrust_route_table_description = optional(string, "untrust")<br>    trust_route_table_name          = optional(string, "trust")<br>    trust_route_table_description   = optional(string, "trust")<br>  })</pre> | `{}` | no |
-| <a name="input_vpcs"></a> [vpcs](#input\_vpcs) | The parameters of vpc. The attribute 'cidr\_block' is required. | <pre>list(object({<br>    vpc_name   = optional(string, null)<br>    cidr_block = string<br>    vswitches = list(object({<br>      subnet  = string<br>      zone_id = string<br>    }))<br>  }))</pre> | `[]` | no |
+| <a name="input_firewall_vpc"></a> [firewall\_vpc](#input\_firewall\_vpc) | The parameters of firewall vpc. | <pre>object({<br/>    vpc_name   = optional(string, "firewall-vpc")<br/>    cidr_block = string<br/>    firewall_vswitch = object({<br/>      subnet  = string<br/>      zone_id = string<br/>    })<br/>    tr_vswitches = list(object({<br/>      subnet  = string<br/>      zone_id = string<br/>    }))<br/>    inbound_route_table_name  = optional(string, "inbound")<br/>    outbound_route_table_name = optional(string, "outbound")<br/>  })</pre> | <pre>{<br/>  "cidr_block": null,<br/>  "firewall_vswitch": {<br/>    "subnet": null,<br/>    "zone_id": null<br/>  },<br/>  "tr_vswitches": [<br/>    {<br/>      "subnet": null,<br/>      "zone_id": null<br/>    },<br/>    {<br/>      "subnet": null,<br/>      "zone_id": null<br/>    }<br/>  ]<br/>}</pre> | no |
+| <a name="input_tr_config"></a> [tr\_config](#input\_tr\_config) | The parameters of transit router. | <pre>object({<br/>    name                            = optional(string, "east-west-tr")<br/>    untrust_route_table_name        = optional(string, "untrust")<br/>    untrust_route_table_description = optional(string, "untrust")<br/>    trust_route_table_name          = optional(string, "trust")<br/>    trust_route_table_description   = optional(string, "trust")<br/>  })</pre> | `{}` | no |
+| <a name="input_vpcs"></a> [vpcs](#input\_vpcs) | The parameters of vpc. The attribute 'cidr\_block' is required. | <pre>list(object({<br/>    vpc_name   = optional(string, null)<br/>    cidr_block = string<br/>    vswitches = list(object({<br/>      subnet  = string<br/>      zone_id = string<br/>    }))<br/>  }))</pre> | `[]` | no |
 
 ## Outputs
 
